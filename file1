@@ -1,10 +1,28 @@
-# This program adds two numbers
 
 num1 = 1.5
 num2 = 6.3
-
-# Add two numbers
 sum = num1 + num2
-
-# Display the sum
+ Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+public class SwapNumbers {
+
+    public static void main(String[] args) {
+
+        float first = 1.20f, second = 2.45f;
+
+        System.out.println("--Before swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+
+        float temporary = first;
+
+        first = second;
+
+        // Value of temporary (which contains the initial value of first) is assigned to second
+        second = temporary;
+
+        System.out.println("--After swap--");
+        System.out.println("First number = " + first);
+        System.out.println("Second number = " + second);
+    }
+}
