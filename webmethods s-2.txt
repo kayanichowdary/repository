@@ -1,0 +1,7 @@
+code - sequence - main (exit on success)
+			try (exit of failure)
+
+Repeat- count - number of retry counts
+ exit - 
+
+entry point for transaction - port
